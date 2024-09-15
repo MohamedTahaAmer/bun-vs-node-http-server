@@ -1,9 +1,9 @@
 const cluster = require("cluster")
 const http = require("http")
-const os = require("os")
+// const os = require("os")
 
-const numCPUs = os.cpus().length
-
+// const numCPUs = os.cpus().length
+let numCPUs = navigator.hardwareConcurrency
 if (cluster.isMaster) {
 	console.log(`Master process ${process.pid} is running`)
 

@@ -1,7 +1,6 @@
 let http = require("http")
 let server = http.createServer((req, res) => {
-	res.writeHead(200, { "Content-Type": "text/plain" })
-	res.end("Hello World\n")
+	res.end("Node!")
 })
 server.listen(3004)
 
@@ -9,5 +8,6 @@ server.listen(3004)
 //#region // <
 /*
 this has Requests/sec:	142570.5653
+
 */
 //#endregion
