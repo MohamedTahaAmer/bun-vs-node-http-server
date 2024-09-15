@@ -1,7 +1,0 @@
-{
-	"name": "bun-vs-node-http-server",
-	"dependencies": {},
-	"devDependencies": {
-		"@types/bun": "^1.1.8"
-	}
-}
